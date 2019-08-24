@@ -129,6 +129,9 @@
     .tv-service-content > p {
         text-align: center;
     }
+	 .tv-service-info > p {
+        text-align: center;
+    }
     .bg-color {
         margin-top: 30px;
     }
