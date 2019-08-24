@@ -286,8 +286,8 @@ a:focus {
     padding: 12px 40px;
     position: absolute;
     text-transform: uppercase;
-    top: 70%;
-    transform: translate(-50%, -70%);
+    top: 90%;
+    transform: translate(-50%, -90%);
 }
 #reservation .reservation-buttons .btn .r-button.focus, .btn.r-button:focus, .btn.r-button:hover {
     background-color: transparent;
@@ -303,8 +303,19 @@ a:focus {
     letter-spacing: 3px;
     position: absolute;
     text-transform: uppercase;
-    top: 40%;
-    transform: translate(-50%, -40%);
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+.tv-service-info > p {
+	color: #ffffff;
+    font-family: oswaldbold;
+    font-size: 15px;
+    left: 50%;
+    letter-spacing: 2px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    transform: translate(-50%, -30%);
 }
 /*End*/
 
