@@ -1,0 +1,7 @@
+107.161.23.204 
+209.141.38.71
+192.161.187.200
+ttl 3603
+service parking
+
+cname was parking.namesilo.com
