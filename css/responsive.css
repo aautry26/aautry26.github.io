@@ -26,6 +26,7 @@
     }
     .tv-banner-desc {
         width: 60%;
+		
     }
     .main-menu > li > a {
         padding: 10px 6px;
@@ -102,9 +103,21 @@
         left: 0;
         width: 100%;
     }
+	.crop-height {
+  max-width: 1200px; /* img src width (if known) */
+  max-height: 320px;
+  overflow: hidden; 
+}
     .tv-banner-desc {
         font-size: 12px;
-        width: 90%;
+       /* width: 90%;*/
+		 display: block;
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  width: auto\9; /* ie8+9 */
+  /* lt ie8 */
+  -ms-interpolation-mode: bicubic; 
     }
     .view-button button {
         font-size: 12px;
